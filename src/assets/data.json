@@ -1,0 +1,142 @@
+{
+  "category": [
+    {
+      "Id": "1",
+      "Title": "Action",
+      "Movies": [
+        {
+          "CategoryId": "1",
+          "Image": "https://m.media-amazon.com/images/M/MV5BNzM3NDFhYTAtYmU5Mi00NGRmLTljYjgtMDkyODQ4MjNkMGY2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+          "iMDBLink": "https://www.imdb.com/title/tt0266697/?ref_=ttls_li_tt",
+          "Title": "Kill Bill: Vol. 1"
+        },
+        {
+          "CategoryId": "1",
+          "Image": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt0468569/?ref_=ttls_li_tt",
+          "Title": "The Dark Knight"
+        },
+        {
+          "CategoryId": "1",
+          "Image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt1375666/?ref_=ttls_li_tt",
+          "Title": "Inception"
+        }
+      ]
+    },
+    {
+      "Id": "2",
+      "Title": "Drama",
+      "Movies": [
+        {
+          "CategoryId": "2",
+          "Image": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt7286456",
+          "Title": "Joker"
+        },
+        {
+          "CategoryId": "2",
+          "Image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR3,0,182,268_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt0068646/?ref_=ttls_li_tt",
+          "Title": "The Godfather"
+        },
+        {
+          "CategoryId": "2",
+          "Image": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR3,0,182,268_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt0071562/?ref_=ttls_li_tt",
+          "Title": "The Godfather: Part II"
+        },
+        {
+          "CategoryId": "2",
+          "Image": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR1,0,182,268_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt0110912/?ref_=ttls_li_tt",
+          "Title": "Pulp Fiction"
+        },
+        {
+          "CategoryId": "2",
+          "Image": "https://m.media-amazon.com/images/M/MV5BNDc0YTQ5NGEtM2NkYS00MWRhLThiNzAtNmY3NWU3YzNkMjIyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt0113277/?ref_=ttls_li_tt",
+          "Title": "Heat"
+        }
+      ]
+    },
+    {
+      "Id": "3",
+      "Title": "Comedy",
+      "Movies": [
+        {
+          "CategoryId": "3",
+          "Image": "https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt1431045/?ref_=ttls_li_tt",
+          "Title": "Deadpool"
+        },
+        {
+          "CategoryId": "3",
+          "Image": "https://m.media-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt1675434/?ref_=ttls_li_tt",
+          "Title": "Intouchables"
+        },
+        {
+          "CategoryId": "3",
+          "Image": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt0088763/?ref_=ttls_li_tt",
+          "Title": "Back to the Future"
+        },
+        {
+          "CategoryId": "3",
+          "Image": "https://m.media-amazon.com/images/M/MV5BNDg4NjM1YjMtYmNhZC00MjM0LWFiZmYtNGY1YjA3MzZmODc5XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UX182_CR0,0,182,268_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt0211915/?ref_=ttls_li_tt",
+          "Title": "Amélie"
+        },
+        {
+          "CategoryId": "3",
+          "Image": "https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt1049413/?ref_=ttls_li_tt",
+          "Title": "Up"
+        }
+      ]
+    },
+    {
+      "Id": "4",
+      "Title": "Else",
+      "Movies": [
+        {
+          "CategoryId": "4",
+          "Title": "The Irishman",
+          "Image": "https://m.media-amazon.com/images/M/MV5BMGUyM2ZiZmUtMWY0OC00NTQ4LThkOGUtNjY2NjkzMDJiMWMwXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_UY268_CR0,0,182,268_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt1302006/?ref_=inth_ov_tt"
+        },
+        {
+          "CategoryId": "4",
+          "Title": "Terminator: Dark Fate",
+          "Image": "https://m.media-amazon.com/images/M/MV5BNzhlYjE5MjMtZDJmYy00MGZmLTgwN2MtZGM0NTk2ZTczNmU5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt6450804/?ref_=inth_ov_tt"
+        },
+        {
+          "CategoryId": "4",
+          "Title": "Harriet",
+          "Image": "https://m.media-amazon.com/images/M/MV5BNmE1Y2JjMDEtZDAyOC00NjFiLWJlNjAtMjA3MDMzZGUxMDViXkEyXkFqcGdeQXVyMTA2MDQ3MTQ3._V1_UX182_CR0,0,182,268_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt4648786/?ref_=inth_ov_tt"
+        },
+        {
+          "CategoryId": "4",
+          "Title": "Motherless Brooklyn",
+          "Image": "https://m.media-amazon.com/images/M/MV5BNzQ0Mjk1YjItNWI1Ny00NWE2LWFlYTAtYjViY2YzMTVlOGVmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt0385887/?ref_=inth_ov_tt"
+        },
+        {
+          "CategoryId": "4",
+          "Title": "Arctic Justice",
+          "Image": "https://m.media-amazon.com/images/M/MV5BNTY1OTQyM2YtM2ZjOC00OWQwLTkzM2YtZjAyOGZkYjlhNWFhXkEyXkFqcGdeQXVyMTk5MzE1MTY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt4426464/?ref_=inth_ov_tt"
+        },
+        {
+          "CategoryId": "4",
+          "Title": "Our Planet",
+          "Image": "https://m.media-amazon.com/images/M/MV5BN2I1ZjA5YjQtYmQ0ZS00ZmE1LTk1ZjktNTQ5ODIzY2JiZDdhXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+          "IMDBLink": "https://www.imdb.com/title/tt9253866/?ref_=ttls_li_i"
+        }
+      ]
+    }
+  ]
+}

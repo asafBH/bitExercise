@@ -1,0 +1,6 @@
+<h1>Movies Catalog</h1>
+<div class="divContent" fxLayout="row wrap" fxLayoutAlign="start center" fxLayoutGap="20px">
+  <div fxFlex="30" *ngFor="let movie of moviesList">
+    <app-movie [movieData]="movie"></app-movie>
+  </div>
+</div>

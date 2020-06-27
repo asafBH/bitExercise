@@ -1,0 +1,13 @@
+<div class="container" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%" fxLayoutAlign="center">
+  <mat-card class="card-picture">
+    <mat-card-title-group>
+      <button mat-icon-button class="buttonClose" color="warn" (click)="deleteMovie()">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-card-title-group>
+    <mat-card-title fxLayout.gt-xs="row" fxLayout.xs="column"
+    ><a href={{movieData.IMDBLink}}>Title: {{movieData.Title}}</a></mat-card-title>
+    <mat-card-subtitle fxLayout.gt-xs="row" fxLayout.xs="column">Category: {{this.categoryName}}</mat-card-subtitle>
+    <img class="img-size" mat-card-image src="{{movieData.Image}}">
+  </mat-card>
+</div>

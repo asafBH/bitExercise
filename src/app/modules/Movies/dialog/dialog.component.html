@@ -1,0 +1,40 @@
+<h1>Add Movie</h1>
+
+<mat-card>
+  <mat-card-content>
+    <form [formGroup]="addMovie">
+        <mat-form-field>
+            <input type="text" matInput placeholder="title" formControlName="title">
+          </mat-form-field>
+          <br>
+      <br>
+      <mat-form-field>
+          <mat-label>Category</mat-label>
+          <mat-select [(value)]="selected" matNativeControl required>
+            <mat-option value="Action">Action</mat-option>
+            <mat-option value="Drama">Drama</mat-option>
+            <mat-option value="Comedy">Comedy</mat-option>
+            <mat-option value="Else">Else</mat-option>
+          </mat-select>
+        </mat-form-field>
+
+      <mat-form-field>
+        <input type="text" matInput placeholder="image" formControlName="image">
+      </mat-form-field>
+      <br>
+
+      <mat-form-field>
+        <input type="text" matInput placeholder="IMDB Link" formControlName="IMDBLink">
+      </mat-form-field>
+      <br>
+
+
+      <div mat-dialog-actions>
+          <button [disabled]="addMovie.invalid" mat-raised-button (click)="save()">Save</button>
+          <button mat-button (click)="onNoClick()">Cancel</button>
+        </div>
+
+    </form>
+
+  </mat-card-content>
+</mat-card>

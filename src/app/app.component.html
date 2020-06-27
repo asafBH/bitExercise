@@ -1,0 +1,24 @@
+<mat-sidenav-container class="nav-container">
+  <mat-sidenav class="sideNav" #sidenav mode="side" [opened]="sibCom.sideNavIsOpen" (click)="sibCom.toggle()">
+    <p>Welcome User</p>
+    <p (click)="openDialog()" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="mouse-pointer">
+      Add movie
+    </p>
+    <mat-list role="list">
+      <p class="mouse-pointer" *ngFor="let cat of data.getCategories() | async" (click)="goToCategory(cat.Id)"
+        role="listitem">
+        <ng-container *ngIf="cat.numOfMovies > 0">
+            {{cat.Title}}
+        </ng-container>
+        </p>
+    </mat-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <app-header></app-header>
+    <div class="padding-main" [@routeAnimations]="o && o.activatedRouteData 
+      && o.activatedRouteData['animation']">
+      <router-outlet #o="outlet"></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
